@@ -2,7 +2,7 @@
 <p>
     <img width="80" src="https://raw.githubusercontent.com/donnisnoni95/v-logo/master/dist/v-logo.svg?sanitize=true">
 </p>
-<h1>The V Programming Language</h1>
+<h1>The U Programming Language</h1>
 
 [vlang.io](https://vlang.io) |
 [Docs](https://github.com/vlang/v/blob/master/doc/docs.md) |
@@ -21,14 +21,14 @@
 
 </div>
 
-## Key Features of V
+## Key Features of U
 
 - Simplicity: the language can be learned in less than an hour
 - Fast compilation: ≈80k loc/s with a Clang backend, ≈1 million loc/s with x64 and tcc backends *(Intel i5-7500, SSD, no optimization)*
 - Easy to develop: V compiles itself in less than a second
 - Performance: as fast as C (V's main backend compiles to human readable C)
 - Safety: no null, no globals, no undefined behavior, immutability by default
-- C to V translation
+- C to U translation
 - Hot code reloading
 - [Cross-platform UI library](https://github.com/vlang/ui)
 - Built-in graphics library
@@ -40,22 +40,22 @@
 
 ## Stability guarantee and future changes
 
-Despite being at an early development stage, the V language is relatively stable and has
+Despite being at an early development stage, the U language is relatively stable and has
 backwards compatibility guarantee, meaning that the code you write today is guaranteed
 to work a month, a year, or five years from now.
 
 There still may be minor syntax changes before the 1.0 release, but they will be handled
 automatically via `vfmt`, as has been done in the past.
 
-The V core APIs (primarily the `os` module) will still have minor changes until
+The U core APIs (primarily the `os` module) will still have minor changes until
 they are stabilized in 2020. Of course the APIs will grow after that, but without breaking
 existing code.
 
-Unlike many other languages, V is not going to be always changing, with new features
+Unlike many other languages, U is not going to be always changing, with new features
 being introduced and old features modified. It is always going to be a small and simple
 language, very similar to the way it is right now.
 
-## Installing V from source
+## Installing U from source
 
 ### Linux, macOS, Windows, *BSD, Solaris, WSL, Android, Raspbian
 
@@ -72,7 +72,7 @@ That's it! Now you have a V executable at `[path to V repo]/v`.
 
 Now you can try `./v run examples/hello_world.v` (`v.exe` on Windows).
 
-V is being constantly updated. To update V, simply run:
+U is being constantly updated. To update V, simply run:
 
 ```bash
 v up
@@ -92,9 +92,9 @@ However, if none is found when running `make` on Linux or Windows, TCC would be 
 
 ### Symlinking
 
-NB: it is *highly recommended*, that you put V on your PATH. That saves
+NB: it is *highly recommended*, that you put U on your PATH. That saves
 you the effort to type in the full path to your v executable every time.
-V provides a convenience `v symlink` command to do that more easily.
+U provides a convenience `v symlink` command to do that more easily.
 
 On Unix systems, it creates a `/usr/local/bin/v` symlink to your
 executable. To do that, run:
@@ -194,7 +194,7 @@ Fedora:
 sudo dnf install openssl-devel
 ```
 
-## V UI
+## U UI
 
 <a href="https://github.com/vlang/ui">
 <img src='https://raw.githubusercontent.com/vlang/ui/master/examples/screenshot.png' width=712>
